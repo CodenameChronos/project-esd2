@@ -1,0 +1,10 @@
+pass:
+oFY9wRmn5HcOUl8R
+
+
+docker run --name postgres-db \
+  -e POSTGRES_USER=admin \
+  -e POSTGRES_PASSWORD=admin \
+  -e POSTGRES_DB=persona \
+  -p 5432:5432 \
+  -d postgres
